@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* styles.css */
+
+/* App component */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+ }
+ 
+ /* Learner component */
+ .learner {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+ }
+ 
+ .learner h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+ }
+ 
+ .learner p {
+  margin-bottom: 10px;
+ }
+ 
+ /* Score component */
+ .score {
+  margin-left: 20px;
+ }
+ 
+ .score p {
+  margin-bottom: 5px;
+ }
+ 
